@@ -1,14 +1,7 @@
-<svg width="900" height="350" viewBox="0 0 900 350"
-     xmlns="http://www.w3.org/2000/svg">
-
+<svg width="900" height="350" viewBox="0 0 900 350" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .mono {
-        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco,
-                     Consolas, "Liberation Mono", monospace;
-        font-size: 16px;
-      }
-
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: 16px; }
       .prompt { fill: #7aa2f7; }
       .command { fill: #c0caf5; }
       .output { fill: #7dcfff; }
@@ -18,195 +11,73 @@
       .cursor { fill: #c0caf5; }
     </style>
 
-    <clipPath id="cmd1">
-      <rect x="40" y="62" width="0" height="24">
-        <animate attributeName="width"
-                 from="0" to="270"
-                 begin=".5s" dur="1.1s"
-                 fill="freeze"/>
-      </rect>
-    </clipPath>
-
-    <clipPath id="out1">
-      <rect x="40" y="92" width="0" height="24">
-        <animate attributeName="width"
-                 from="0" to="190"
-                 begin="1.9s" dur=".7s"
-                 fill="freeze"/>
-      </rect>
-    </clipPath>
-
-    <clipPath id="cmd2">
-      <rect x="40" y="132" width="0" height="24">
-        <animate attributeName="width"
-                 from="0" to="330"
-                 begin="3s" dur="1.3s"
-                 fill="freeze"/>
-      </rect>
-    </clipPath>
-
-    <clipPath id="out2">
-      <rect x="40" y="162" width="0" height="24">
-        <animate attributeName="width"
-                 from="0" to="650"
-                 begin="4.6s" dur="1.6s"
-                 fill="freeze"/>
-      </rect>
-    </clipPath>
-
-    <clipPath id="cmd3">
-      <rect x="40" y="207" width="0" height="24">
-        <animate attributeName="width"
-                 from="0" to="330"
-                 begin="6.6s" dur="1.2s"
-                 fill="freeze"/>
-      </rect>
-    </clipPath>
-
-    <clipPath id="status1">
-      <rect x="40" y="237" width="0" height="24">
-        <animate attributeName="width"
-                 from="0" to="590"
-                 begin="8.1s" dur="1.5s"
-                 fill="freeze"/>
-      </rect>
-    </clipPath>
-
-    <clipPath id="status2">
-      <rect x="40" y="262" width="0" height="24">
-        <animate attributeName="width"
-                 from="0" to="390"
-                 begin="9.6s" dur="1s"
-                 fill="freeze"/>
-      </rect>
-    </clipPath>
+    <clipPath id="cmd1"><rect x="221" y="62" width="0" height="24"><animate attributeName="width" from="0" to="62" begin=".65s" dur="1.1s" fill="freeze"/></rect></clipPath>
+    <clipPath id="cmd2"><rect x="221" y="132" width="0" height="24"><animate attributeName="width" from="0" to="121" begin="3.9s" dur="1.35s" fill="freeze"/></rect></clipPath>
+    <clipPath id="cmd3"><rect x="221" y="207" width="0" height="24"><animate attributeName="width" from="0" to="135" begin="7.65s" dur="1.3s" fill="freeze"/></rect></clipPath>
   </defs>
 
-  <!-- terminal -->
-  <rect x="1" y="1"
-        width="898" height="348"
-        rx="10"
-        fill="#0f1117"
-        stroke="#2a2f3a"
-        stroke-width="2"/>
+  <rect x="1" y="1" width="898" height="348" rx="10" fill="#0f1117" stroke="#2a2f3a" stroke-width="2"/>
+  <rect x="18" y="10" width="177" height="28" rx="6" fill="#1a1d26"/>
+  <text x="31" y="29" class="mono title">mitchell@github: ~</text>
+  <line x1="1" y1="47" x2="899" y2="47" stroke="#24283b"/>
 
-  <!-- Kitty-style title area -->
-  <rect x="18" y="10"
-        width="177" height="28"
-        rx="6"
-        fill="#1a1d26"/>
-
-  <text x="31" y="29"
-        class="mono title">
-    mitchell@github: ~
-  </text>
-
-  <line x1="1" y1="47"
-        x2="899" y2="47"
-        stroke="#24283b"/>
-
-  <!-- whoami -->
-  <text x="40" y="80"
-        class="mono"
-        clip-path="url(#cmd1)">
-    <tspan class="prompt">mitchell@github ~ %</tspan>
-    <tspan class="command"> whoami</tspan>
-  </text>
-
-  <text x="40" y="110"
-        class="mono output"
-        clip-path="url(#out1)">
-    Mitchell Bialecki
-  </text>
-
-  <!-- domains -->
-  <text x="40" y="150"
-        class="mono"
-        clip-path="url(#cmd2)">
-    <tspan class="prompt">mitchell@github ~ %</tspan>
-    <tspan class="command"> ls ~/domains</tspan>
-  </text>
-
-  <text x="40" y="180"
-        class="mono domain"
-        clip-path="url(#out2)">
-    fpga    embedded-systems    networking    security    backend-systems
-  </text>
-
-  <!-- status -->
-  <text x="40" y="225"
-        class="mono"
-        clip-path="url(#cmd3)">
-    <tspan class="prompt">mitchell@github ~ %</tspan>
-    <tspan class="command"> cat status.txt</tspan>
-  </text>
-
-  <text x="40" y="255"
-        class="mono muted"
-        clip-path="url(#status1)">
-    designing reliable systems across hardware, software,
-  </text>
-
-  <text x="40" y="280"
-        class="mono muted"
-        clip-path="url(#status2)">
-    and cyber-physical environments
-  </text>
-
-  <!-- The caret follows each line while its clip-path is being revealed. -->
-  <g class="cursor">
-    <rect x="40" y="62" width="9" height="18" rx="1" opacity="0">
-      <animate attributeName="x" from="40" to="310" begin=".5s" dur="1.1s" fill="freeze"/>
-      <animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0;.1;.5;.9;1" begin=".5s" dur="1.1s" fill="freeze"/>
-    </rect>
-    <rect x="40" y="92" width="9" height="18" rx="1" opacity="0">
-      <animate attributeName="x" from="40" to="230" begin="1.9s" dur=".7s" fill="freeze"/>
-      <animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0;.1;.5;.9;1" begin="1.9s" dur=".7s" fill="freeze"/>
-    </rect>
-    <rect x="40" y="132" width="9" height="18" rx="1" opacity="0">
-      <animate attributeName="x" from="40" to="370" begin="3s" dur="1.3s" fill="freeze"/>
-      <animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0;.1;.5;.9;1" begin="3s" dur="1.3s" fill="freeze"/>
-    </rect>
-    <rect x="40" y="162" width="9" height="18" rx="1" opacity="0">
-      <animate attributeName="x" from="40" to="690" begin="4.6s" dur="1.6s" fill="freeze"/>
-      <animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0;.1;.5;.9;1" begin="4.6s" dur="1.6s" fill="freeze"/>
-    </rect>
-    <rect x="40" y="207" width="9" height="18" rx="1" opacity="0">
-      <animate attributeName="x" from="40" to="370" begin="6.6s" dur="1.2s" fill="freeze"/>
-      <animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0;.1;.5;.9;1" begin="6.6s" dur="1.2s" fill="freeze"/>
-    </rect>
-    <rect x="40" y="237" width="9" height="18" rx="1" opacity="0">
-      <animate attributeName="x" from="40" to="630" begin="8.1s" dur="1.5s" fill="freeze"/>
-      <animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0;.1;.5;.9;1" begin="8.1s" dur="1.5s" fill="freeze"/>
-    </rect>
-    <rect x="40" y="262" width="9" height="18" rx="1" opacity="0">
-      <animate attributeName="x" from="40" to="430" begin="9.6s" dur="1s" fill="freeze"/>
-      <animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0;.1;.5;.9;1" begin="9.6s" dur="1s" fill="freeze"/>
-    </rect>
-  </g>
-
-  <!-- final prompt -->
+  <!-- First prompt appears immediately; only the command itself is typed. -->
+  <text x="40" y="80" class="mono prompt">mitchell@github ~ %</text>
+  <text x="221" y="80" class="mono command" clip-path="url(#cmd1)">whoami</text>
+  <rect x="221" y="62" width="9" height="18" rx="1" class="cursor">
+    <animate attributeName="opacity" values="1;0;1;0" keyTimes="0;.35;.7;1" begin="0s" dur=".65s" fill="freeze"/>
+  </rect>
+  <rect x="221" y="62" width="9" height="18" rx="1" class="cursor" opacity="0">
+    <animate attributeName="x" from="221" to="283" begin=".65s" dur="1.1s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0;.1;.5;.9;1" begin=".65s" dur="1.1s" fill="freeze"/>
+  </rect>
   <g opacity="0">
-    <animate attributeName="opacity"
-             from="0" to="1"
-             begin="11s"
-             dur=".01s"
-             fill="freeze"/>
-
-    <text x="40" y="322"
-          class="mono prompt">
-      mitchell@github ~ %
-    </text>
-
-    <rect x="221" y="308"
-          width="9" height="18"
-          rx="1"
-          fill="#c0caf5">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.1s"
-               repeatCount="indefinite"/>
-    </rect>
+    <animate attributeName="opacity" from="0" to="1" begin="2.1s" dur=".01s" fill="freeze"/>
+    <text x="40" y="110" class="mono output">Mitchell Bialecki</text>
   </g>
 
+  <!-- A short pause lets the output read before the next prompt opens. -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="3.25s" dur=".01s" fill="freeze"/>
+    <text x="40" y="150" class="mono prompt">mitchell@github ~ %</text>
+    <rect x="221" y="132" width="9" height="18" rx="1" class="cursor">
+      <animate attributeName="opacity" values="1;0;1;0" keyTimes="0;.35;.7;1" begin="3.25s" dur=".65s" fill="freeze"/>
+    </rect>
+  </g>
+  <text x="221" y="150" class="mono command" clip-path="url(#cmd2)">ls ~/domains</text>
+  <rect x="221" y="132" width="9" height="18" rx="1" class="cursor" opacity="0">
+    <animate attributeName="x" from="221" to="342" begin="3.9s" dur="1.35s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0;.1;.5;.9;1" begin="3.9s" dur="1.35s" fill="freeze"/>
+  </rect>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="5.75s" dur=".01s" fill="freeze"/>
+    <text x="40" y="180" class="mono domain">fpga    embedded-systems    networking    security    backend-systems</text>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="7.1s" dur=".01s" fill="freeze"/>
+    <text x="40" y="225" class="mono prompt">mitchell@github ~ %</text>
+    <rect x="221" y="207" width="9" height="18" rx="1" class="cursor">
+      <animate attributeName="opacity" values="1;0;1;0" keyTimes="0;.35;.7;1" begin="7.1s" dur=".55s" fill="freeze"/>
+    </rect>
+  </g>
+  <text x="221" y="225" class="mono command" clip-path="url(#cmd3)">cat status.txt</text>
+  <rect x="221" y="207" width="9" height="18" rx="1" class="cursor" opacity="0">
+    <animate attributeName="x" from="221" to="356" begin="7.65s" dur="1.3s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;1;0;1;0" keyTimes="0;.1;.5;.9;1" begin="7.65s" dur="1.3s" fill="freeze"/>
+  </rect>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="9.45s" dur=".01s" fill="freeze"/>
+    <text x="40" y="255" class="mono muted">designing reliable systems across hardware, software,</text>
+    <text x="40" y="280" class="mono muted">and cyber-physical environments</text>
+  </g>
+
+  <!-- The terminal settles on an idle prompt after the final output. -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="11.1s" dur=".01s" fill="freeze"/>
+    <text x="40" y="322" class="mono prompt">mitchell@github ~ %</text>
+    <rect x="221" y="308" width="9" height="18" rx="1" class="cursor">
+      <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 </svg>
