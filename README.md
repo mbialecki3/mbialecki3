@@ -3,14 +3,14 @@
 # Mitchell Bialecki
 
 <p>
-  <strong>B.S. Computer Science</strong> · <strong>M.S. Computer Systems Engineering</strong><br>
+  <strong>B.S. Computer Science Candidate</strong> · <strong>Accelerated M.S. Computer Systems Engineering Candidate</strong><br>
   Arizona State University
 </p>
 
 <br><br>
 
 <img
-  src="./assets/terminal.svg?v=3"
+  src="https://raw.githubusercontent.com/mbialecki3/mbialecki3/main/assets/terminal.svg?v=20261003-4"
   width="100%"
   alt="Animated terminal introduction"
 />
