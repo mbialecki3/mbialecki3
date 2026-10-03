@@ -118,13 +118,15 @@ for day in days:
 # -------------------------
 
 WIDTH = 900
-HEIGHT = 325
+HEIGHT = 430
 
-LEFT = 45
-BAR_START = 285
-BAR_WIDTH = 535
-BAR_HEIGHT = 10
-ROW_GAP = 20
+# Keep the chart and the summary in separate vertical regions.  The previous
+# layout placed the last two months directly underneath the statistics divider.
+LEFT = 60
+BAR_START = 240
+BAR_WIDTH = 610
+BAR_HEIGHT = 12
+ROW_GAP = 22
 
 max_contributions = max(
     (monthly[m] for m in month_keys),
@@ -259,7 +261,7 @@ svg.append(
 # Month bars
 # -------------------------
 
-start_y = 70
+start_y = 74
 
 for index, month_key in enumerate(month_keys):
     date = datetime.strptime(month_key, "%Y-%m")
@@ -320,20 +322,23 @@ for index, month_key in enumerate(month_keys):
 # Stats
 # -------------------------
 
-stats_y = 285
+# The chart ends at y=328, so this leaves a deliberate 32 px visual break
+# before the summary rather than relying on a tight divider alone.
+STATS_DIVIDER_Y = 360
+stats_y = 388
 
 svg.append(
     f'''
 <line
     x1="40"
-    y1="267"
+    y1="{STATS_DIVIDER_Y}"
     x2="860"
-    y2="267"
+    y2="{STATS_DIVIDER_Y}"
     stroke="#24283b"
 />
 
 <text
-    x="45"
+    x="60"
     y="{stats_y}"
     class="mono muted"
 >
@@ -341,7 +346,7 @@ svg.append(
 </text>
 
 <text
-    x="45"
+    x="60"
     y="{stats_y + 20}"
     class="mono value"
 >
@@ -350,7 +355,7 @@ svg.append(
 
 
 <text
-    x="245"
+    x="270"
     y="{stats_y}"
     class="mono muted"
 >
@@ -358,7 +363,7 @@ svg.append(
 </text>
 
 <text
-    x="245"
+    x="270"
     y="{stats_y + 20}"
     class="mono value"
 >
@@ -367,7 +372,7 @@ svg.append(
 
 
 <text
-    x="430"
+    x="480"
     y="{stats_y}"
     class="mono muted"
 >
@@ -375,7 +380,7 @@ svg.append(
 </text>
 
 <text
-    x="430"
+    x="480"
     y="{stats_y + 20}"
     class="mono value"
 >
@@ -384,7 +389,7 @@ svg.append(
 
 
 <text
-    x="630"
+    x="690"
     y="{stats_y}"
     class="mono muted"
 >
@@ -392,7 +397,7 @@ svg.append(
 </text>
 
 <text
-    x="630"
+    x="690"
     y="{stats_y + 20}"
     class="mono value"
 >
