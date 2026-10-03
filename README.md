@@ -7,7 +7,7 @@
 <br><br>
 
 <img
-  src="./assets/terminal.svg"
+  src="./assets/terminal.svg?v=2"
   width="100%"
   alt="Animated terminal introduction"
 />
