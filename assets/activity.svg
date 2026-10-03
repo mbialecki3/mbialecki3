@@ -1,0 +1,601 @@
+
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="900"
+    height="325"
+    viewBox="0 0 900 325"
+>
+<defs>
+
+<style>
+    .mono {
+        font-family:
+            ui-monospace,
+            SFMono-Regular,
+            Menlo,
+            Monaco,
+            Consolas,
+            "Liberation Mono",
+            monospace;
+    }
+
+    .label {
+        font-size: 13px;
+        fill: #c0caf5;
+    }
+
+    .muted {
+        font-size: 12px;
+        fill: #787c99;
+    }
+
+    .stat {
+        font-size: 14px;
+        fill: #c0caf5;
+    }
+
+    .value {
+        font-size: 14px;
+        fill: #7aa2f7;
+    }
+
+    .title {
+        font-size: 13px;
+        fill: #c0caf5;
+    }
+</style>
+
+<linearGradient id="activityGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#7aa2f7"/>
+    <stop offset="100%" stop-color="#7dcfff"/>
+</linearGradient>
+
+</defs>
+
+
+<rect
+    x="1"
+    y="1"
+    width="898"
+    height="323"
+    rx="10"
+    fill="#0f1117"
+    stroke="#2a2f3a"
+    stroke-width="2"
+/>
+
+
+<rect
+    x="18"
+    y="10"
+    width="210"
+    height="28"
+    rx="6"
+    fill="#1a1d26"
+/>
+
+<text
+    x="31"
+    y="29"
+    class="mono title"
+>
+    activity / last 12 months
+</text>
+
+<line
+    x1="1"
+    y1="47"
+    x2="899"
+    y2="47"
+    stroke="#24283b"
+/>
+
+
+<text
+    x="45"
+    y="80"
+    class="mono label"
+>
+    Nov
+</text>
+
+<rect
+    x="285"
+    y="70"
+    width="535"
+    height="10"
+    rx="5"
+    fill="#1a1b26"
+/>
+
+<rect
+    x="285"
+    y="70"
+    width="3.0"
+    height="10"
+    rx="5"
+    fill="url(#activityGradient)"
+/>
+
+<text
+    x="267"
+    y="80"
+    text-anchor="end"
+    class="mono muted"
+>
+    0
+</text>
+
+
+<text
+    x="45"
+    y="100"
+    class="mono label"
+>
+    Dec
+</text>
+
+<rect
+    x="285"
+    y="90"
+    width="535"
+    height="10"
+    rx="5"
+    fill="#1a1b26"
+/>
+
+<rect
+    x="285"
+    y="90"
+    width="3.0"
+    height="10"
+    rx="5"
+    fill="url(#activityGradient)"
+/>
+
+<text
+    x="267"
+    y="100"
+    text-anchor="end"
+    class="mono muted"
+>
+    0
+</text>
+
+
+<text
+    x="45"
+    y="120"
+    class="mono label"
+>
+    Jan
+</text>
+
+<rect
+    x="285"
+    y="110"
+    width="535"
+    height="10"
+    rx="5"
+    fill="#1a1b26"
+/>
+
+<rect
+    x="285"
+    y="110"
+    width="7.6"
+    height="10"
+    rx="5"
+    fill="url(#activityGradient)"
+/>
+
+<text
+    x="267"
+    y="120"
+    text-anchor="end"
+    class="mono muted"
+>
+    1
+</text>
+
+
+<text
+    x="45"
+    y="140"
+    class="mono label"
+>
+    Feb
+</text>
+
+<rect
+    x="285"
+    y="130"
+    width="535"
+    height="10"
+    rx="5"
+    fill="#1a1b26"
+/>
+
+<rect
+    x="285"
+    y="130"
+    width="3.0"
+    height="10"
+    rx="5"
+    fill="url(#activityGradient)"
+/>
+
+<text
+    x="267"
+    y="140"
+    text-anchor="end"
+    class="mono muted"
+>
+    0
+</text>
+
+
+<text
+    x="45"
+    y="160"
+    class="mono label"
+>
+    Mar
+</text>
+
+<rect
+    x="285"
+    y="150"
+    width="535"
+    height="10"
+    rx="5"
+    fill="#1a1b26"
+/>
+
+<rect
+    x="285"
+    y="150"
+    width="535.0"
+    height="10"
+    rx="5"
+    fill="url(#activityGradient)"
+/>
+
+<text
+    x="267"
+    y="160"
+    text-anchor="end"
+    class="mono muted"
+>
+    70
+</text>
+
+
+<text
+    x="45"
+    y="180"
+    class="mono label"
+>
+    Apr
+</text>
+
+<rect
+    x="285"
+    y="170"
+    width="535"
+    height="10"
+    rx="5"
+    fill="#1a1b26"
+/>
+
+<rect
+    x="285"
+    y="170"
+    width="183.4"
+    height="10"
+    rx="5"
+    fill="url(#activityGradient)"
+/>
+
+<text
+    x="267"
+    y="180"
+    text-anchor="end"
+    class="mono muted"
+>
+    24
+</text>
+
+
+<text
+    x="45"
+    y="200"
+    class="mono label"
+>
+    May
+</text>
+
+<rect
+    x="285"
+    y="190"
+    width="535"
+    height="10"
+    rx="5"
+    fill="#1a1b26"
+/>
+
+<rect
+    x="285"
+    y="190"
+    width="145.2"
+    height="10"
+    rx="5"
+    fill="url(#activityGradient)"
+/>
+
+<text
+    x="267"
+    y="200"
+    text-anchor="end"
+    class="mono muted"
+>
+    19
+</text>
+
+
+<text
+    x="45"
+    y="220"
+    class="mono label"
+>
+    Jun
+</text>
+
+<rect
+    x="285"
+    y="210"
+    width="535"
+    height="10"
+    rx="5"
+    fill="#1a1b26"
+/>
+
+<rect
+    x="285"
+    y="210"
+    width="76.4"
+    height="10"
+    rx="5"
+    fill="url(#activityGradient)"
+/>
+
+<text
+    x="267"
+    y="220"
+    text-anchor="end"
+    class="mono muted"
+>
+    10
+</text>
+
+
+<text
+    x="45"
+    y="240"
+    class="mono label"
+>
+    Jul
+</text>
+
+<rect
+    x="285"
+    y="230"
+    width="535"
+    height="10"
+    rx="5"
+    fill="#1a1b26"
+/>
+
+<rect
+    x="285"
+    y="230"
+    width="76.4"
+    height="10"
+    rx="5"
+    fill="url(#activityGradient)"
+/>
+
+<text
+    x="267"
+    y="240"
+    text-anchor="end"
+    class="mono muted"
+>
+    10
+</text>
+
+
+<text
+    x="45"
+    y="260"
+    class="mono label"
+>
+    Aug
+</text>
+
+<rect
+    x="285"
+    y="250"
+    width="535"
+    height="10"
+    rx="5"
+    fill="#1a1b26"
+/>
+
+<rect
+    x="285"
+    y="250"
+    width="519.7"
+    height="10"
+    rx="5"
+    fill="url(#activityGradient)"
+/>
+
+<text
+    x="267"
+    y="260"
+    text-anchor="end"
+    class="mono muted"
+>
+    68
+</text>
+
+
+<text
+    x="45"
+    y="280"
+    class="mono label"
+>
+    Sep
+</text>
+
+<rect
+    x="285"
+    y="270"
+    width="535"
+    height="10"
+    rx="5"
+    fill="#1a1b26"
+/>
+
+<rect
+    x="285"
+    y="270"
+    width="206.4"
+    height="10"
+    rx="5"
+    fill="url(#activityGradient)"
+/>
+
+<text
+    x="267"
+    y="280"
+    text-anchor="end"
+    class="mono muted"
+>
+    27
+</text>
+
+
+<text
+    x="45"
+    y="300"
+    class="mono label"
+>
+    Oct
+</text>
+
+<rect
+    x="285"
+    y="290"
+    width="535"
+    height="10"
+    rx="5"
+    fill="#1a1b26"
+/>
+
+<rect
+    x="285"
+    y="290"
+    width="76.4"
+    height="10"
+    rx="5"
+    fill="url(#activityGradient)"
+/>
+
+<text
+    x="267"
+    y="300"
+    text-anchor="end"
+    class="mono muted"
+>
+    10
+</text>
+
+
+<line
+    x1="40"
+    y1="267"
+    x2="860"
+    y2="267"
+    stroke="#24283b"
+/>
+
+<text
+    x="45"
+    y="285"
+    class="mono muted"
+>
+    contributions
+</text>
+
+<text
+    x="45"
+    y="305"
+    class="mono value"
+>
+    249
+</text>
+
+
+<text
+    x="245"
+    y="285"
+    class="mono muted"
+>
+    active days
+</text>
+
+<text
+    x="245"
+    y="305"
+    class="mono value"
+>
+    65
+</text>
+
+
+<text
+    x="430"
+    y="285"
+    class="mono muted"
+>
+    current streak
+</text>
+
+<text
+    x="430"
+    y="305"
+    class="mono value"
+>
+    1 days
+</text>
+
+
+<text
+    x="630"
+    y="285"
+    class="mono muted"
+>
+    longest streak
+</text>
+
+<text
+    x="630"
+    y="305"
+    class="mono value"
+>
+    7 days
+</text>
+
+</svg>
