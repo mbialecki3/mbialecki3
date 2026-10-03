@@ -2,11 +2,15 @@
 
 # Mitchell Bialecki
 
-**Computer Systems Engineering · Arizona State University**
+<sub>Computer Systems Engineering · Arizona State University</sub>
 
-<br>
+<br><br>
 
-<img src="https://raw.githubusercontent.com/mbialecki3/mbialecki3/main/assets/terminal.svg" width="100%" alt="Animated terminal introduction">
+<img
+  src="./assets/terminal.svg"
+  width="100%"
+  alt="Animated terminal introduction"
+/>
 
 </div>
 
@@ -14,42 +18,73 @@
 
 ## About
 
-Accelerated master's student in Computer Systems Engineering at Arizona State University.
+I'm an accelerated master's student in **Computer Systems Engineering at Arizona State University**, interested in building reliable systems across the hardware/software boundary.
 
-I'm interested in designing and building systems across the hardware/software boundary, particularly in FPGA development, embedded systems, networking, cybersecurity, cyber-physical systems, and backend engineering.
+My primary interests include FPGA development, embedded systems, computer networking, cybersecurity, cyber-physical systems, backend engineering, and semiconductor systems.
+
+I enjoy working on projects where software interacts closely with hardware, infrastructure, or real-world systems.
 
 ## Selected Work
 
 ### [Stoa](https://github.com/mbialecki3/stoa)
 
-Repository-aware dependency analysis platform built around software supply-chain visibility and dependency intelligence.
+A repository-aware dependency analysis platform for exploring software dependencies, vulnerabilities, and supporting evidence across multiple data sources.
 
-`C#` `ASP.NET Core` `React` `TypeScript` `PostgreSQL` `Docker`
+`C#` · `ASP.NET Core` · `React` · `TypeScript` · `PostgreSQL` · `Docker`
+
+---
 
 ### [Semiconductor Fab Analytics](https://github.com/mbialecki3/semiconductor-fab-analytics)
 
-Semiconductor manufacturing analytics environment focused on process monitoring, statistical analysis, and visualization.
+A semiconductor manufacturing analytics environment focused on process monitoring, statistical analysis, visualization, and data-driven manufacturing decisions.
 
-`Python` `PostgreSQL` `Plotly` `Streamlit`
+`Python` · `PostgreSQL` · `Plotly` · `Streamlit`
+
+---
 
 ### [AI Inference Benchmarking Lab](https://github.com/mbialecki3/AI-Inference-Benchmarking-Lab)
 
-Environment for benchmarking computer-vision inference across multiple runtimes and compute backends.
+A benchmarking environment for evaluating computer-vision inference across different runtimes and compute backends.
 
-`Python` `PyTorch` `ONNX Runtime` `OpenVINO` `CUDA`
+`Python` · `PyTorch` · `ONNX Runtime` · `OpenVINO` · `CUDA`
+
+---
 
 ### [The Phoenix Protocol](https://github.com/mbialecki3/The-Phoenix-Protocol)
 
-Server-side Fabric mod implementing configurable hardcore world resets and player life management.
+A server-side Fabric mod implementing configurable hardcore world resets, player life management, and persistent server-side state.
 
-`Java` `Fabric`
+`Java` · `Fabric`
+
+<br>
 
 ## Technologies
 
-<p>
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,python,java,ts,react,postgres,docker,linux,git&perline=10" alt="Technology stack">
-</p>
+<div align="center">
 
-## Interests
+<img
+  src="https://skillicons.dev/icons?i=cs,dotnet,python,java,ts,react,postgres,docker,linux,git&perline=10"
+  alt="Technology stack"
+/>
 
-`FPGA` · `Embedded Systems` · `Cyber-Physical Systems` · `Networking` · `Cybersecurity` · `Backend Systems` · `Semiconductor Engineering`
+</div>
+
+<br>
+
+## Areas of Interest
+
+`FPGA Development` · `Embedded Systems` · `Cyber-Physical Systems` · `Computer Networking` · `Cybersecurity` · `Backend Systems` · `Semiconductor Engineering`
+
+<br>
+
+## Activity
+
+<div align="center">
+
+<img
+  src="./assets/contributions.svg"
+  width="100%"
+  alt="GitHub contribution activity"
+/>
+
+</div>
