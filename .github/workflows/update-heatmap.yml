@@ -25,7 +25,7 @@ jobs:
 
       - name: Commit updated heatmap
         run: |
-          if [ -z "$(git status --porcelain -- assets/contributions.svg)" ]; then
+          if [ -z "$(git status --porcelain -- assets/activity.svg)" ]; then
             echo "No changes."
             exit 0
           fi
@@ -33,6 +33,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add assets/contributions.svg
-          git commit -m "chore: refresh contribution heatmap"
+          git add assets/activity.svg
+          git commit -m "chore: refresh activity chart"
           git push

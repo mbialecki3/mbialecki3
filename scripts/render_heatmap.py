@@ -372,10 +372,7 @@ svg.append(
     class="mono muted"
 >
     current streak
-g
-    width="900"
-    height="330"
-  </text>
+</text>
 
 <text
     x="430"
