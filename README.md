@@ -82,9 +82,9 @@ A server-side Fabric mod implementing configurable hardcore world resets, player
 <div align="center">
 
 <img
-  src="./assets/contributions.svg"
+  src="./assets/activity.svg"
   width="100%"
-  alt="GitHub contribution activity"
+  alt="GitHub monthly activity"
 />
 
 </div>
