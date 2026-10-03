@@ -10,7 +10,7 @@
 <br><br>
 
 <img
-  src="https://raw.githubusercontent.com/mbialecki3/mbialecki3/main/assets/terminal.svg?v=20261003-4"
+  src="https://raw.githubusercontent.com/mbialecki3/mbialecki3/main/assets/terminal.svg?v=20261003-5"
   width="100%"
   alt="Animated terminal introduction"
 />
