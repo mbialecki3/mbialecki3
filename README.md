@@ -2,12 +2,15 @@
 
 # Mitchell Bialecki
 
-<sub>Computer Systems Engineering · Arizona State University</sub>
+<p>
+  <strong>B.S. Computer Science</strong> · <strong>M.S. Computer Systems Engineering</strong><br>
+  Arizona State University
+</p>
 
 <br><br>
 
 <img
-  src="./assets/terminal.svg?v=2"
+  src="./assets/terminal.svg?v=3"
   width="100%"
   alt="Animated terminal introduction"
 />
