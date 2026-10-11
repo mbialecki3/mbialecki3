@@ -507,7 +507,7 @@
 <rect
     x="240"
     y="316"
-    width="148.1"
+    width="183.0"
     height="12"
     rx="5"
     fill="url(#activityGradient)"
@@ -519,7 +519,7 @@
     text-anchor="end"
     class="mono muted"
 >
-    17
+    21
 </text>
 
 
@@ -544,7 +544,7 @@
     y="408"
     class="mono value"
 >
-    253
+    257
 </text>
 
 
@@ -561,7 +561,7 @@
     y="408"
     class="mono value"
 >
-    63
+    62
 </text>
 
 
@@ -578,7 +578,7 @@
     y="408"
     class="mono value"
 >
-    0 days
+    2 days
 </text>
 
 
