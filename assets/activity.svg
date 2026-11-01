@@ -96,7 +96,7 @@
     y="84"
     class="mono label"
 >
-    Nov
+    Dec
 </text>
 
 <rect
@@ -132,7 +132,7 @@
     y="106"
     class="mono label"
 >
-    Dec
+    Jan
 </text>
 
 <rect
@@ -147,7 +147,7 @@
 <rect
     x="240"
     y="96"
-    width="3.0"
+    width="8.7"
     height="12"
     rx="5"
     fill="url(#activityGradient)"
@@ -159,49 +159,13 @@
     text-anchor="end"
     class="mono muted"
 >
-    0
-</text>
-
-
-<text
-    x="60"
-    y="128"
-    class="mono label"
->
-    Jan
-</text>
-
-<rect
-    x="240"
-    y="118"
-    width="610"
-    height="12"
-    rx="5"
-    fill="#1a1b26"
-/>
-
-<rect
-    x="240"
-    y="118"
-    width="8.7"
-    height="12"
-    rx="5"
-    fill="url(#activityGradient)"
-/>
-
-<text
-    x="222"
-    y="128"
-    text-anchor="end"
-    class="mono muted"
->
     1
 </text>
 
 
 <text
     x="60"
-    y="150"
+    y="128"
     class="mono label"
 >
     Feb
@@ -209,7 +173,7 @@
 
 <rect
     x="240"
-    y="140"
+    y="118"
     width="610"
     height="12"
     rx="5"
@@ -218,7 +182,7 @@
 
 <rect
     x="240"
-    y="140"
+    y="118"
     width="3.0"
     height="12"
     rx="5"
@@ -227,7 +191,7 @@
 
 <text
     x="222"
-    y="150"
+    y="128"
     text-anchor="end"
     class="mono muted"
 >
@@ -237,7 +201,7 @@
 
 <text
     x="60"
-    y="172"
+    y="150"
     class="mono label"
 >
     Mar
@@ -245,7 +209,7 @@
 
 <rect
     x="240"
-    y="162"
+    y="140"
     width="610"
     height="12"
     rx="5"
@@ -254,7 +218,7 @@
 
 <rect
     x="240"
-    y="162"
+    y="140"
     width="610.0"
     height="12"
     rx="5"
@@ -263,7 +227,7 @@
 
 <text
     x="222"
-    y="172"
+    y="150"
     text-anchor="end"
     class="mono muted"
 >
@@ -273,7 +237,7 @@
 
 <text
     x="60"
-    y="194"
+    y="172"
     class="mono label"
 >
     Apr
@@ -281,7 +245,7 @@
 
 <rect
     x="240"
-    y="184"
+    y="162"
     width="610"
     height="12"
     rx="5"
@@ -290,7 +254,7 @@
 
 <rect
     x="240"
-    y="184"
+    y="162"
     width="209.1"
     height="12"
     rx="5"
@@ -299,7 +263,7 @@
 
 <text
     x="222"
-    y="194"
+    y="172"
     text-anchor="end"
     class="mono muted"
 >
@@ -309,7 +273,7 @@
 
 <text
     x="60"
-    y="216"
+    y="194"
     class="mono label"
 >
     May
@@ -317,7 +281,7 @@
 
 <rect
     x="240"
-    y="206"
+    y="184"
     width="610"
     height="12"
     rx="5"
@@ -326,7 +290,7 @@
 
 <rect
     x="240"
-    y="206"
+    y="184"
     width="165.6"
     height="12"
     rx="5"
@@ -335,7 +299,7 @@
 
 <text
     x="222"
-    y="216"
+    y="194"
     text-anchor="end"
     class="mono muted"
 >
@@ -345,7 +309,7 @@
 
 <text
     x="60"
-    y="238"
+    y="216"
     class="mono label"
 >
     Jun
@@ -353,6 +317,42 @@
 
 <rect
     x="240"
+    y="206"
+    width="610"
+    height="12"
+    rx="5"
+    fill="#1a1b26"
+/>
+
+<rect
+    x="240"
+    y="206"
+    width="87.1"
+    height="12"
+    rx="5"
+    fill="url(#activityGradient)"
+/>
+
+<text
+    x="222"
+    y="216"
+    text-anchor="end"
+    class="mono muted"
+>
+    10
+</text>
+
+
+<text
+    x="60"
+    y="238"
+    class="mono label"
+>
+    Jul
+</text>
+
+<rect
+    x="240"
     y="228"
     width="610"
     height="12"
@@ -384,48 +384,12 @@
     y="260"
     class="mono label"
 >
-    Jul
-</text>
-
-<rect
-    x="240"
-    y="250"
-    width="610"
-    height="12"
-    rx="5"
-    fill="#1a1b26"
-/>
-
-<rect
-    x="240"
-    y="250"
-    width="87.1"
-    height="12"
-    rx="5"
-    fill="url(#activityGradient)"
-/>
-
-<text
-    x="222"
-    y="260"
-    text-anchor="end"
-    class="mono muted"
->
-    10
-</text>
-
-
-<text
-    x="60"
-    y="282"
-    class="mono label"
->
     Aug
 </text>
 
 <rect
     x="240"
-    y="272"
+    y="250"
     width="610"
     height="12"
     rx="5"
@@ -434,7 +398,7 @@
 
 <rect
     x="240"
-    y="272"
+    y="250"
     width="592.6"
     height="12"
     rx="5"
@@ -443,7 +407,7 @@
 
 <text
     x="222"
-    y="282"
+    y="260"
     text-anchor="end"
     class="mono muted"
 >
@@ -453,7 +417,7 @@
 
 <text
     x="60"
-    y="304"
+    y="282"
     class="mono label"
 >
     Sep
@@ -461,7 +425,7 @@
 
 <rect
     x="240"
-    y="294"
+    y="272"
     width="610"
     height="12"
     rx="5"
@@ -470,7 +434,7 @@
 
 <rect
     x="240"
-    y="294"
+    y="272"
     width="235.3"
     height="12"
     rx="5"
@@ -479,7 +443,7 @@
 
 <text
     x="222"
-    y="304"
+    y="282"
     text-anchor="end"
     class="mono muted"
 >
@@ -489,10 +453,46 @@
 
 <text
     x="60"
-    y="326"
+    y="304"
     class="mono label"
 >
     Oct
+</text>
+
+<rect
+    x="240"
+    y="294"
+    width="610"
+    height="12"
+    rx="5"
+    fill="#1a1b26"
+/>
+
+<rect
+    x="240"
+    y="294"
+    width="278.9"
+    height="12"
+    rx="5"
+    fill="url(#activityGradient)"
+/>
+
+<text
+    x="222"
+    y="304"
+    text-anchor="end"
+    class="mono muted"
+>
+    32
+</text>
+
+
+<text
+    x="60"
+    y="326"
+    class="mono label"
+>
+    Nov
 </text>
 
 <rect
@@ -507,7 +507,7 @@
 <rect
     x="240"
     y="316"
-    width="278.9"
+    width="3.0"
     height="12"
     rx="5"
     fill="url(#activityGradient)"
@@ -519,7 +519,7 @@
     text-anchor="end"
     class="mono muted"
 >
-    32
+    0
 </text>
 
 
